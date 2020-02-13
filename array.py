@@ -14,10 +14,10 @@ for student in students:
 if "mark" in students:
   print("mark is there")
 if "harry" not in students:
-  print("harry is there")
+  print("harry is not there")
   #methods
   print(len(students)) #check length of list
-  students.append("nigel") #adds after last index
+  students.append("nigel") #adds element after last index
   print(students)
   students.insert(2,"glory") #inserts a name into specified place on list
   print(students)
